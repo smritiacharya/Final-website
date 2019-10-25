@@ -1,0 +1,68 @@
+img{
+  width: 100%;
+}
+h1{
+  font-size: 2em;
+  color: pink;
+  background-color: teal;
+}
+h2{
+  font-size: 2em;
+  color: pink;
+  background-color: teal;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: teal;
+}
+/* h3 {
+  font-size:1.5em;
+  color: black;
+  background-color: pink;
+} */
+
+.pinkbackground {
+  background: pink;
+  padding: 0 25px 25px 25px;
+  -webkit-box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
+box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
+
+}
+
+.pinkbackground h2 {
+  color: teal;
+  background: none;
+  text-shadow: 3px 3px 9px rgba(220,131,90,0.83);
+}
+.tealbackground {
+  background: teal;
+  padding: 0 25px 25px 25px;
+  -webkit-box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
+box-shadow:13px 7px 21px 6px rgba(0,103,103,0.75)
+}
+
+.tealbackground h3 {
+  color: pink;
+  background: none;
+  text-shadow:2px 6px 7px rgba(0,103,103,0.51)
+}
