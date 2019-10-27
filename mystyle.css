@@ -30,7 +30,15 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/*screen reader only rule  */
+.hidden
+position: absolute;
+top: auto;
+left:-10000px;
+width:1px;
+height: 1px
+overflow: hidden;
+/*screen reader end rule  */
 
 li a:hover {
   background-color: teal;
