@@ -33,19 +33,32 @@ li a {
 
 
 li a:hover {
-  background-color: teal;
+  background-color: pink;
 }
 /* h3 {
   font-size:1.5em;
   color: black;
   background-color: pink;
-} */
+
+
+/* screen reader only rule */
+.hidden{
+  position: absolute;
+  top: auto;
+  left:-10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* end of fscreeen reader only rule */
+
 
 .pinkbackground {
   background: pink;
   padding: 0 25px 25px 25px;
   -webkit-box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
 box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
+font-family: 'Dancing Script', cursive;
 
 }
 
@@ -53,28 +66,22 @@ box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
   color: teal;
   background: none;
   text-shadow: 3px 3px 9px rgba(220,131,90,0.83);
-  -webkit-box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
 }
 .tealbackground {
   background: teal;
   padding: 0 25px 25px 25px;
   -webkit-box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
 box-shadow:13px 7px 21px 6px rgba(0,103,103,0.75)
+font-family: 'Dancing Script', cursive;
 }
 
 .tealbackground h3 {
   color: pink;
   background: none;
   text-shadow:2px 6px 7px rgba(0,103,103,0.51)
-    -webkit-box-shadow: 0px 0px 39px 9px rgba(212,136,255,0.57);
 }
-/*screen reader only rule  */
-.hidden
-position: absolute;
-top: auto;
-left:-10000px;
-width:1px;
-height: 1px
-overflow: hidden;
-/*screen reader end rule  */
 
+.paragraph{
+  font-size: 0.89em;
+  font-family: 'Dancing Script', cursive;
+}
